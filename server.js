@@ -2,9 +2,9 @@ const express = require("express");
 const axios = require("axios");
 const app = express();
 
-const CLIENT_ID = "YOUR_CLIENT_ID";
-const CLIENT_SECRET = "YOUR_CLIENT_SECRET";
-const REDIRECT_URI = "YOUR_REDIRECT_URI";
+const CLIENT_ID = "1332996821873721378";
+const CLIENT_SECRET = "Dt0wxQI3vHff-_ve6xUJ8UiDMXNz67B0";
+const REDIRECT_URI = "https://aerser.github.io/Ninsho/";
 
 app.get("/callback", async (req, res) => {
     const code = req.query.code;
